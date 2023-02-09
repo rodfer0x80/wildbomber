@@ -1,4 +1,5 @@
 # wildbomber
+ wildbomber is like the ted kaczynski for apis
 
 ## Todo
 ````
