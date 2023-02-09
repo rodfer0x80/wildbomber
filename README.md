@@ -1,5 +1,5 @@
 # wildbomber
- wildbomber is like the ted kaczynski for apis
+> wildbomber is like the ted kaczynski for apis
 
 ## Todo
 ````
