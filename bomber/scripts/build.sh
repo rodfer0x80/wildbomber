@@ -1,5 +1,7 @@
 #!/bin/sh
-python3 -m venv venv
-source ./venv/bin/activate &&\
-    pip install --upgrade pip &&\
-    pip install -r requirements.txt
+
+git clone https://github.com/mitmproxy/mitmproxy.git
+cd ./mitmproxy
+pipenv install
+pipenv run pip install pip setuptools
+pipenv run pip install -r requirements.txt
